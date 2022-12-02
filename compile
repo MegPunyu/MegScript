@@ -1,0 +1,2 @@
+javac -sourcepath src -d classes src/tokyo/meg/script/NutMeg.java
+jar -cvfm dist/NutMeg.jar manifest.mf -C classes .
